@@ -1,34 +1,15 @@
 # Deep-learning-miniproject
 Mini-projects in the scope of Deep Learning class. 
 
-Project2 --> Linear.py --> method params torch.cat solution to be found
+# Project 1
 
-# 16/04/2021:
-Le debut a été difficile, beaucoup de conflits sur github à gérer. Choses à retenir clear les cellules des jupyter notebook avant de les pusher !!!
-## Travail réalisé:
-### Projet 1: 
-La fonction train a été optimisée. Une nouvelle architecture a été et doit être développée. CNN for MNIST : https://github.com/Coderx7/SimpleNet. 
-### Projet 2:
-Le fichier test.py a été complété (run.py), réseau de neurones à entraîner.
-## Travail à réaliser:
-Everyone: Commenter le code  
-Victor: implementer nouvelle architecture dans architecture.py (Projet 1)  
-Arthur : Tester l'algorithme et vérifier qu'il fonctionne bien (Projet 2)  
-Arnaud : Finir les graphes, implementer la première architecture vue avec arthur (Projet 2)  
+"Hello world project" : Classification of MNIST dataset using ResNet like architecture on PyTorch framework
 
-# 23/04/2021
-## Work done:
-Arthur : Test du projet 2, aidé par Arnaud. Projet 1 fonctionnel et efficace, à nettoyer et run.py à créer. Nouvelle architecture implémentée (architecture croisée).  
-Victor : Revue de littérature, implémentation de simplenet, a essayé d'implémenter resNext.  
-Arnaud : Projet 1 fait avec Arthur, commentaire du code, MnistCNN et crossarchitecture.  
-## Petites tâches:
-Splitter les classes de manière équivalente en fonction des chiffres  
-Rajouter le temps  
-Tester SGD à la place de Adam  
-Tester SeLU à la place ReLU  
-## Travail à réaliser:
-Objectif fixé à 98% !!!!  
-Everyone : nettoyer le code
-Victor : data augmentation, architecture ResNext, allèger SimpleNet  
-Arthur : amélioration de oOnet, créer overleaf, nouvelle architecture, allèger MnistCNN  
-Arnaud : ajoute le temps aux graphiques, ajouter le nombre de paramètres de chaque modèle aux graphiques, nouvelle architecture, essayer de régler problème de unbalanced class.  
+# Project 2
+
+Small framework creation for Deep learning with numpy to understand the concept of the different layer :
+-ReLU
+-TanH
+-Sequential
+-Linear layer
+-MSELoss
